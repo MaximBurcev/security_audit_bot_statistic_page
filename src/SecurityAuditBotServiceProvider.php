@@ -2,7 +2,9 @@
 
 namespace Max\SecurityAuditBot;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class SecurityAuditBotServiceProvider extends ServiceProvider
 {
     public function boot()
     {
