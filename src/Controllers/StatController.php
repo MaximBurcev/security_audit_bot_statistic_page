@@ -2,9 +2,13 @@
 
 namespace Max\SecurityAuditBot\Controllers;
 
+
+use Illuminate\Support\Facades\View;
+
 class StatController
 {
     public function index(){
-        echo 'stat page 2';
+        $test = 'test string';
+        return View::make('views::stat', compact('test'));
     }
 }
