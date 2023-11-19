@@ -1,0 +1,19 @@
+{
+    "name": "max/security_audit_bot_statistic_page",
+    "description": "Security audit bot statistic page",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "Max\\SecurityAuditBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maxim.b",
+            "email": "maxim.b@intensa.ru"
+        }
+    ]
+}
