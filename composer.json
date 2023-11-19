@@ -3,7 +3,7 @@
     "description": "Security audit bot statistic page",
     "type": "library",
     "require": {
-        "illuminate/support": "^10.32"
+        "illuminate/support": ">=10.32.1"
     },
     "autoload": {
         "psr-4": {
