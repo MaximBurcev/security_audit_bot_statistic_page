@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Max\\SecurityAuditBot\\ServiceProvider"
+                "Max\\SecurityAuditBot\\SecurityAuditBotServiceProvider"
             ]
         }
     }
